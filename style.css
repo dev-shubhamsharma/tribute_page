@@ -1,0 +1,162 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#main
+{
+   background: #222;
+   color: #ddd;
+   font-family: 'montserrat',sans-serif;
+}
+
+.heading
+{
+   color: orange;
+}
+
+header
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 35vmin;
+}
+
+#title
+{
+   font-size: 7.5vmin;
+   margin-bottom: 4vmin;
+}
+
+header p
+{
+   font-size: 3.5vmin;
+}
+
+#img-div
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 5vmin 4vmin;
+   background: #ddd;
+   color: #222;
+}
+
+#image
+{
+   max-width: 100%;
+   margin-bottom: 5vmin;
+}
+
+#img-div p
+{
+   font-size: 3vmin;
+   text-align: center;
+   color: #000;
+   line-height: 4vmin;
+}
+
+#tribute-info h3
+{
+   font-family: 'montserrat',sans-serif;
+   font-size:4.5vmin;
+   width: 100%;
+   text-align: center;
+   padding: 6vmin 0;
+   text-transform: capitalize;
+   background: #222;
+}
+
+#tribute-info ul
+{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin: 0 25vmin 6vmin 25vmin;
+}
+
+ul li
+{
+   margin: 2vmin 0;
+   font-size: 3vmin;
+   line-height: 4.5vmin;
+}
+
+blockquote
+{
+   background: #ddd;
+   color: #000;
+   text-align: center;
+   padding: 5vmin 25vmin;
+   font-style: italic;
+   font-size: 3vmin;
+}
+
+blockquote cite
+{
+    font-weight: bold;
+}
+
+h2
+{
+   font-size: 3vmin;
+   text-align: center;
+   padding: 8vmin 15vmin;
+   text-transform: capitalize;
+}
+
+@media (max-width: 480px)
+{
+   #title
+   {
+      font-size: 8vmin;
+   }
+
+   header p
+   {
+      font-size: 4.5vmin;
+   }
+
+   #img-div p
+   {
+      font-size: 4vmin;
+      line-height: 6vmin;
+   }
+
+   #tribute-info ul
+   {
+      margin: 6vmin 15vmin;
+   }
+
+   #tribute-info h3
+   {
+      font-size: 5vmin;
+      text-align: center;
+      line-height: 8vmin;
+      padding: 6vmin 4vmin;
+   }
+
+   ul li
+   {
+      font-size: 4vmin;
+      line-height: 6.5vmin;
+   }
+
+   blockquote
+   {
+      padding: 5vmin 10vmin;
+      font-size: 4vmin;
+   }
+
+   h2
+   {
+      font-size: 5vmin;
+      line-height: 7vmin;
+   }
+}
